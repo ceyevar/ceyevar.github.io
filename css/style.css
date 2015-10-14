@@ -39,7 +39,7 @@ h1, h2, h3 {
   font: normal 140% 'Quadranta', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
-  color: #000;
+  color: #111;
   text-shadow: 1px 1px 1px #fff;
 }
 
@@ -161,7 +161,7 @@ header {
 }
 
 #logo_text h1 a .logo_colour { 
-  color: #09D4FF;
+  color: #CDDC39;
 }
 
 #logo_text a:hover .  { 
@@ -195,8 +195,7 @@ nav {
   float: right;
   width: 230px;
   margin: 0 0 17px 0;
-  background: #FFF;
-  background: #fff;
+  background: #CFD8DC;
   border: 1px solid #e5e5e5;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
@@ -204,10 +203,12 @@ nav {
 }
   
 .sidebar h3, .content h1 { 
-  background: #eee;padding: 10px 15px;
-  font-size: 170%;
-  border: 1px solid #fff;
-  color: #063E4C;
+  background: #607D8B;
+  padding: 10px 15px;
+  font-size: 180%;
+  border: 1px solid #CFD8DC;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
     border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
   -webkit-border: 7px 7px 0 0;
@@ -215,7 +216,7 @@ nav {
 
 .sidebar h3, .content h1 { 
   padding: 5px 15px 10px 15px;
-  color: #74706E;
+  color: #0;
 }
 
 .sidebar li a.selected { 
@@ -228,13 +229,15 @@ nav {
 
 .sidebar_item, .content_item { 
   padding: 15px 15px;
+  background: #CFD8DC;
 }
 
 .content { 
   text-align: left;
   width: 740px;
   margin: 0 0 15px 0;
-  background: #fff;border-bottom: 1px solid #D4D4D4;
+  background: #CFD8DC;
+  border-bottom: 1px solid #D4D4D4;
   border: 1px solid #e5e5e5;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
@@ -400,11 +403,11 @@ Author: Jurriaan Roelofs
 
 /* Configuration of menu width */
 html body ul.sf-menu ul, html body ul.sf-menu ul li {
-  width: 180px;
+  width: 220px;
 }
 
 html body ul.sf-menu ul ul {
-  margin: 0 0 0 180px;
+  margin: 0 0 0 220px;
 }
 
 /* Framework for proper showing/hiding/positioning */
@@ -499,7 +502,7 @@ ul#nav li.current a {
   color: #FFF;}
 
 ul#nav ul {
-  background: #88E2F8;
+  background: #FFF;
 }
 
 ul#nav li a {
@@ -507,7 +510,7 @@ ul#nav li a {
   font-family: 'trebuchet ms',helvetica,arial,verdana,sans;
   text-decoration: none;
   color: #111;
-  background: #88E2F8;
+  background: #CDDC39;
   margin-right: 2px;
   border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
