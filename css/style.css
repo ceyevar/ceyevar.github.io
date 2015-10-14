@@ -15,9 +15,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
   display:block;}
 
 body { 
-  font: normal .80em arial, sans-serif;
+  font: normal .82em arial, sans-serif;
   background: #F8F7F0;
-  color: #7A7A68;
+  color: #000;
 }
 
 p { 
